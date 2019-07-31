@@ -1,9 +1,10 @@
 import React from "react";
 
-export default function Donations() {
+export default function Donations(props) {
   return (
     <article>
-      <p>hello</p>
+      <h4>{props.data.name}</h4>
+      <p>{props.data.donation}</p>
     </article>
   );
 }
