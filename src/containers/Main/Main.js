@@ -1,9 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import Card from "../../components/Card/Card";
 import Donations from "../../components/Donations/Donations";
 import { connect } from "react-redux";
-import * as actions from "../../_redux/actions/";
-// import * as apiCalls from "../../_api/";
 import "./Main.css";
 
 function Main(props) {
