@@ -28,8 +28,8 @@ class App extends Component {
         <header>
           <h3>Animal Rescue</h3>
           <Inputs />
-          <Main />
         </header>
+        <Main />
       </div>
     );
   }

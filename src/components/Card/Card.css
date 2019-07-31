@@ -1,5 +1,8 @@
 .animal-card {
-  border: 1px solid red;
+  border: 1px solid black;
+  box-shadow: 1px 1px 15px rgb(105, 105, 105);
+  border-radius: 5px;
+  text-align: center;
   width: 25%;
   min-width: 225px;
   max-width: 300px;

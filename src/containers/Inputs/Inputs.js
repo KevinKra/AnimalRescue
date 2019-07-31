@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import * as actions from "../../_redux/actions";
+import "./Inputs.css";
 
 class Inputs extends Component {
   state = {
@@ -34,23 +35,27 @@ class Inputs extends Component {
 
   render() {
     return (
-      <form>
-        <label htmlFor="animal-name" />
-        <input
-          type="text"
-          name="donorName"
-          value={this.state.donorName}
-          onChange={this.collectInputs}
-        />
-        <label htmlFor="donation" />
-        <input
-          type="text"
-          name="donation"
-          value={this.state.donation}
-          onChange={this.collectInputs}
-        />
-        <button onClick={this.handleSubmit}>Donate!</button>
-      </form>
+      <section className="Inputs">
+        <form>
+          <input
+            type="text"
+            name="donorName"
+            value={this.state.donorName}
+            onChange={this.collectInputs}
+            autoComplete="off"
+          />
+          <input
+            type="text"
+            name="donation"
+            value={this.state.donation}
+            onChange={this.collectInputs}
+            autoComplete="off"
+          />
+          <button className="main-btn" onClick={this.handleSubmit}>
+            Donate!
+          </button>
+        </form>
+      </section>
     );
   }
 }
