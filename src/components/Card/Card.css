@@ -1,0 +1,14 @@
+.animal-card {
+  border: 1px solid red;
+  width: 25%;
+  min-width: 225px;
+  max-width: 300px;
+  height: 350px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.animal-card > img {
+  width: 100px;
+  height: 100px;
+}
