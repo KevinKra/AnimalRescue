@@ -12,3 +12,13 @@ export const updateDonations = donation => ({
   type: "UPDATE_DONATIONS",
   donation
 });
+
+export const isLoading = loading => ({
+  type: "IS_LOADING",
+  loading
+});
+
+export const hasErrored = error => ({
+  type: "HAS_ERRORED",
+  error
+});
