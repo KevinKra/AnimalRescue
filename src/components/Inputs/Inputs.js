@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class Inputs extends Component {
   state = {
-    animalName: "",
+    donorName: "",
     donation: ""
   };
 
@@ -20,7 +20,7 @@ export default class Inputs extends Component {
     return (
       <form>
         <label htmlFor="animal-name" />
-        <input type="text" name="animalName" onChange={this.collectInputs} />
+        <input type="text" name="donorName" onChange={this.collectInputs} />
         <label htmlFor="donation" />
         <input type="text" name="donation" onChange={this.collectInputs} />
         <button onClick={this.handleSubmit}>Donate!</button>
