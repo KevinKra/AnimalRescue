@@ -1,0 +1,31 @@
+.Inputs {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 25vw;
+  height: 10rem;
+}
+
+.Inputs > form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Inputs > form > * {
+  height: 25px;
+  margin: 0.2rem;
+  border: none;
+}
+
+.main-btn {
+  color: white;
+  font-size: 1rem;
+  background-color: rgb(158, 193, 233);
+}
+
+.main-btn:hover {
+  cursor: pointer;
+  background-color: rgb(125, 159, 197);
+}

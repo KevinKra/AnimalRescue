@@ -1,0 +1,18 @@
+.Main {
+  display: flex;
+  margin: 1rem;
+}
+
+.card-output {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-right: none;
+  width: 75%;
+}
+
+.donations-output {
+  border: 1px solid black;
+  width: 25%;
+}
