@@ -3,7 +3,8 @@ export const donationsReducer = (state = [], action) => {
     case "COLLECT_DONATIONS":
       return action.donations;
     case "UPDATE_DONATIONS":
-      return action.payload;
+      const updatedDonations = [...state, action.donation];
+      return updatedDonations;
     default:
       return state;
   }
